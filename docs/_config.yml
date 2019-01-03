@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 西葫芦瓜
-subtitle: 
-description: 
-keywords: 
-author: ginnier
-language: 
+title: Hexo
+subtitle:
+description:
+keywords:
+author: John Doe
+language:
 timezone:
 
 # URL
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jekyll-theme-architect
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+  type: git 
+  repository: git@github.com:ginnier666/mine.git
+  branch: master 
