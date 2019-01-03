@@ -1,0 +1,2 @@
+- 新建：hexo new [layout:post/draft] [文件名]
+- 部署：hexo g -d
